@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 
-*createsu.py
+
 # C extensions
 *.so
 
