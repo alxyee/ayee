@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 
-ayee/input/
+./ayee/input/management/commands/createsu.py
 # C extensions
 *.so
 
