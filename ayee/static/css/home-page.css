@@ -1,7 +1,7 @@
 
 
-
-/*html { 
+/*
+html { 
   background: url(../images/food.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -18,13 +18,16 @@
 }
 /* Fonts */
 p.largeFont{
-	font-size:15vh;
+	font-size:20vh;
+}
+p.headerFont{
+  font-size:10vh;
 }
 p.regularFont{
-	font-size:5vh;
+	font-size:4vh;
 }
 p.smallFont{
-	font-size:2vh;
+	font-size:3vh;
 }
 p.skinnyText{
 	font-weight: 100;
@@ -32,29 +35,34 @@ p.skinnyText{
 p.inline{
 	display:inline;
 }
-.normalText{
+p.normalText{
 	font-weight: 300;
+}
+p.boldText{
+  font-weight: 7x00;
 }
 /* color */
 .themeColor{
 	background: white; /* Old browsers */
-	/*
-	background: url('../images/tree.jpg') no-repeat center center fixed;
-	  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  */
+  background:#77DD77;
+  color:white;
+}
+.bottomText{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .jumbotron{
-height: 50vh;
+height: 70vh;
 }
-
+.socialLinks{
+  padding-right:5vw;
+}
 .navbar {
     margin-bottom: 0;
     border:0;
-    opacity: 0.8; /* opacity [0-1] */
+    opacity: 0.5; /* opacity [0-1] */
 }
 /* Skills page */
 .text-center{
@@ -85,6 +93,16 @@ height: 50vh;
   padding: 10vh 0;
   color: #ffffff;
 }
+/* education */
+.education{
+  background-image: url('../images/stanfordcampus.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100vh;
+}
+
 /* Subprojects */
 #me294{
     background: url(../images/prosthetic1.svg) no-repeat center center;
@@ -155,34 +173,108 @@ background-color:#FDFD96;
   height: 100vh;
 }
 .col-full-height {
-  height: 30vh;
+  height: 34vh;
   vertical-align: middle;
 }
 .row-same-height {
   display: table;
-  width: 100vw;
+  width: 100%;
   /* fix overflow */
   table-layout: fixed;
 }
+.row-full-height figcaption {
+	background: rgba(0,0,0,0.8);
+	color: black;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
 
-#me294:hover{
-background-color:blue;
-}
-#bioe374:hover{
-	background-image: url('../images/projBiodesign.jpg');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+		-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
 }
 
-/* content styles */
-
-.item {
-  display: table;
+#me294:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
-.content {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
+
+#cs235:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#bioe374:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#projPiano:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#me210:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#me382:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#iosProx:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#iosInsoles:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#iosInsoles2:hover figcaption{
+	opacity:1;
+	background-color:rgba(255,255,255,0.95);
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
