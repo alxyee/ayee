@@ -35,10 +35,17 @@ p.inline{
 /* color */
 .themeColor{
 	background: white; /* Old browsers */
+	/*
+	background: url('../images/tree.jpg') no-repeat center center fixed;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
 }
 
 .jumbotron{
-/*background: url('../images/food.jpg') repeat center center fixed;*/
+height: 50vh;
 }
 
 .navbar {
@@ -72,4 +79,94 @@ p.inline{
   padding: 10vh 0;
   color: #ffffff;
 }
+/* Subprojects */
+#me294{
+	background-image: url('../images/projSplitHook.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#bioe374{
+		background-image: url('../images/projBiodesign.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#me382{
+		background-image: url('../images/projBone.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#cs235{
+  background-image: url('../images/projChessRobot.jpg');
+  background: url(../images/robotArm.svg) no-repeat center center;
+  background-size: contain;
 
+}
+
+#me210{
+		background-image: url('../images/projSumobot.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#iosProx{
+		background-image: url('../images/projProximity.png');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#iosInsoles{
+		background-image: url('../images/projSmartinsoles.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#iosInsoles2{
+		background-image: url('../images/projInsoles.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#projPiano{
+		background-image: url('../images/projPiano.jpg');
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* columns of same height styles */
+
+.row-full-height {
+  height: 100vh;
+}
+.col-full-height {
+  height: 30vh;
+  vertical-align: middle;
+}
+.row-same-height {
+  display: table;
+  width: 100vw;
+  /* fix overflow */
+  table-layout: fixed;
+}
+
+
+/* content styles */
+
+.item {
+  display: table;
+}
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
