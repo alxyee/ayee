@@ -18,10 +18,10 @@ p.largeFont{
 	font-size:15vh;
 }
 p.regularFont{
-	font-size:10vh;
+	font-size:5vh;
 }
 p.smallFont{
-	font-size:5vh;
+	font-size:2vh;
 }
 p.skinnyText{
 	font-weight: 100;
@@ -54,6 +54,9 @@ height: 50vh;
     opacity: 0.8; /* opacity [0-1] */
 }
 /* Skills page */
+.text-center{
+	text-align:center;
+}
 .featurette-item {
   margin-bottom: 5vh;
 }
@@ -63,9 +66,9 @@ height: 50vh;
   border-radius: 50%;
   display: inline-block;
   font-size: 10vh;
-  width: 25vh;
-  height: 25vh;
-  line-height: 25vh;
+  width: 20vh;
+  height: 20vh;;
+  line-height: 20vh;
   vertical-align: middle; 
   text-align: center;
 }
@@ -81,67 +84,50 @@ height: 50vh;
 }
 /* Subprojects */
 #me294{
-	background-image: url('../images/projSplitHook.jpg');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/prosthetic1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 #bioe374{
-		background-image: url('../images/projBiodesign.jpg');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	
+    background: url(../images/xray1.svg) no-repeat center center;
+  background-size: 50% 50%;
+  background-color:red;
 }
 #me382{
 		background-image: url('../images/projBone.jpg');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/cells1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 #cs235{
   background-image: url('../images/projChessRobot.jpg');
-  background: url(../images/robotArm.svg) no-repeat center center;
-  background-size: contain;
-
+  background: url(../images/robot1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 
 #me210{
 		background-image: url('../images/projSumobot.jpg');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/battle1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 #iosProx{
 		background-image: url('../images/projProximity.png');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/prox1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 #iosInsoles{
 		background-image: url('../images/projSmartinsoles.jpg');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/insoles1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 #iosInsoles2{
 		background-image: url('../images/projInsoles.jpg');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/phone1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 #projPiano{
 		background-image: url('../images/projPiano.jpg');
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/piano1.svg) no-repeat center center;
+  background-size: 50% 50%;
 }
 /* columns of same height styles */
 
@@ -159,6 +145,16 @@ height: 50vh;
   table-layout: fixed;
 }
 
+#me294:hover{
+background-color:blue;
+}
+#bioe374:hover{
+	background-image: url('../images/projBiodesign.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 /* content styles */
 
