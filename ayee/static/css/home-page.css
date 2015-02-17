@@ -95,7 +95,7 @@ height: 70vh;
 }
 /* education */
 .education{
-  background-image: url('../images/stanfordcampus.jpg') no-repeat center center fixed;
+  background: url('../images/stanfordcampus.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
