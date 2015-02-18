@@ -5,3 +5,6 @@ from django.http import Http404
 def home(request):
 	return render(request, 'ayee/home.html')
 	
+def subproject(request):
+	return render(request, 'ayee/subproject.html')
+	

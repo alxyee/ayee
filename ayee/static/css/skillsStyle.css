@@ -1,106 +1,27 @@
-
-
-/*
-html { 
-  background: url(../images/food.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-*/
-/* alignment */
-.vert {
-  vertical-align: middle;
-  width:100%;
-  padding-top:4%;
-  text-align:center;
-}
 /* Fonts */
 p.largeFont{
-	font-size:20vh;
+  font-size:20vh;
 }
 p.headerFont{
   font-size:10vh;
 }
 p.regularFont{
-	font-size:4vh;
+  font-size:4vh;
 }
 p.smallFont{
-	font-size:3vh;
+  font-size:3vh;
 }
 p.skinnyText{
-	font-weight: 100;
+  font-weight: 100;
 }
 p.inline{
-	display:inline;
+  display:inline;
 }
 p.normalText{
-	font-weight: 300;
+  font-weight: 300;
 }
 p.boldText{
   font-weight: 700;
-}
-/* color */
-.themeColor{
-	background: white; /* Old browsers */
-  background:#77DD77;
-  color:white;
-}
-.bottomText{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.jumbotron{
-height: 70vh;
-}
-.socialLinks{
-  padding-right:5vw;
-}
-.navbar {
-    margin-bottom: 0;
-    border:0;
-    opacity: 0.5; /* opacity [0-1] */
-}
-/* Skills page */
-.text-center{
-  text-align:center;
-}
-.featurette-item {
-  margin-bottom: 5vh;
-}
-
-.featurette-item > i {
-  border: 0.5vh solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 10vh;
-  width: 20vh;
-  height: 20vh;;
-  line-height: 20vh;
-  vertical-align: middle; 
-  text-align: center;
-}
-
-.featurette-item > i:hover {
-  font-size: 15vh;
-}
-
-.skillsPage{
-  background: #222334;
-  padding: 10vh 0;
-  color: #ffffff;
-}
-/* education */
-.education{
-  background: url('../images/stanfordcampus.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:100vh;
 }
 
 /* Subprojects */
@@ -187,14 +108,13 @@ background-color:#FDFD96;
 	color: black;
 	height: 100%;
 	width: 100%;
-	left: 0;
 	opacity: 0;
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: 100;
 
-		-webkit-transition: all 300ms ease-out;
+	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
 	transition: all 300ms ease-out;
 	vertical-align: middle;
