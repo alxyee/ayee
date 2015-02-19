@@ -1,15 +1,15 @@
 /* Fonts */
 p.largeFont{
-  font-size:20vh;
+  font-size:20px;
 }
 p.headerFont{
-  font-size:10vh;
+  font-size:12px;
 }
 p.regularFont{
-  font-size:4vh;
+  font-size:5px;
 }
 p.smallFont{
-  font-size:3vh;
+  font-size:3px;
 }
 p.skinnyText{
   font-weight: 100;

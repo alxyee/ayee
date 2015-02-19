@@ -1,10 +1,10 @@
 /* move special fonts to HTML head for better performance */
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 /* custom template */
 html, body, p, a {
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 a {
@@ -108,7 +108,7 @@ a {
 
 h1,h2,h3 {
   font-weight:800;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .jumbotron {
@@ -124,13 +124,38 @@ h1,h2,h3 {
   letter-spacing:2px;
 }
 
-
 small.text-muted {
-  font-family:'Lato',courier,courier-new,monospace;
+  font-family:'Ubuntu',courier,courier-new,monospace;
 }
 
 .featured{
   padding:0 ;
+}
+
+.featurette {
+  background: #222334;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
 }
 
 
