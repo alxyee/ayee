@@ -4,7 +4,8 @@
 /* custom template */
 html, body, p, a {
   height: 100%;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', Arial,sans-serif;
+  letter-spacing:2px;
 }
 
 h1,h2,h3,h4,h5.lead,.btn,.navbar a {
@@ -149,13 +150,27 @@ small.text-muted {
   background: #fff;
   color: #ffffff;
 }
+.featurette-clear{
+  color:#fff;
+}
 .featurette-item {
   margin-bottom: 15px;
 }
 .blackText{
   color:black;
 }
-
+.whiteText{
+  color:#fff;
+}
+.grey-back{
+background-color:rgba(100,100,100,0.6);
+}
+#canvas {
+  background-color: #B8B8B8; /* change this to your preferred color */
+  opacity:0.7;
+  padding: 25px; /* pushes content off the edge of the canvas */
+  box-sizing: border-box; /* includes padding in the width */
+}
 .featurette-item > i {
   border: 3px solid #ffffff;
   border-radius: 50%;
@@ -175,7 +190,6 @@ small.text-muted {
 .featurette-item-skills> i {
   font-size: 56px;
 }
-
 
 .featurette-item-skills > i:hover {
   font-size: 68px;
