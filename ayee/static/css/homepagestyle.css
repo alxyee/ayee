@@ -46,13 +46,12 @@ a {
 }
 
 .box {
-  bottom: 0; /* increase for footer use */
-  left: 0;
+
   position: absolute;
-  right: 0;
-  top: 0;
+
   background-image:url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/IMG_0001.JPG');
   background-size:cover;
+  background-repeat: no-repeat;
   background-attachment:fixed;
 }
 
@@ -152,6 +151,7 @@ small.text-muted {
 }
 .featurette-clear{
   color:#fff;
+
 }
 .featurette-item {
   margin-bottom: 15px;
