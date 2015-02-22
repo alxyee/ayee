@@ -26,7 +26,7 @@ p.boldText{
 
 /* Subprojects */
 #me294{
-    background: url(../images/prosthetic1.svg) no-repeat center center;
+    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/Prosthetic-arm.svg') no-repeat center center;
   background-size: 50% 50%;
   /* yellow */
 background-color:#FDFD96;
@@ -55,7 +55,7 @@ background-color:#FDFD96;
 
 #me210{
 		background-image: url('../images/projSumobot.jpg');
-  background: url(../images/battle1.svg) no-repeat center center;
+  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/SumoFlat.svg') no-repeat center center;
   background-size: 50% 50%;
   /* pink */
   background-color: #DEA5A4;
@@ -68,7 +68,7 @@ background-color:#FDFD96;
   background-color: #AEC6CF;
 }
 #iosInsoles{
-  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/bluetooth_insoles.svg') no-repeat center center;
+  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/bluetooth_insoles-2.svg') no-repeat center center;
   background-size: 50% 50%;
   /* violet */
   background-color: #CB99C9;
@@ -112,6 +112,7 @@ background-color:#FDFD96;
 	right: 0;
 	top: 0;
 	z-index: 100;
+  padding: 20px 20px 20px 20px;
 
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
