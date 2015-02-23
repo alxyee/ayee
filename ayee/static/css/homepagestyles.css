@@ -161,7 +161,7 @@ small.text-muted {
   color: #ffffff;
 }
 .featurette-orange{
-  background:#779ECB;
+background-color:rgba(100,100,100,0.9);
     color: #ffffff;
 }
 .featurette-clear{
@@ -181,7 +181,7 @@ small.text-muted {
   color:#ADD8E6;
 }
 .grey-back{
-background-color:rgba(100,100,100,0.8);
+background-color:rgba(100,100,100,0.9);
 }
 #canvas {
   background-color: #B8B8B8; /* change this to your preferred color */
