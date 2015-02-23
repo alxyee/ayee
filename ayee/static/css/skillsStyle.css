@@ -33,21 +33,20 @@ background-color:#FDFD96;
 }
 #bioe374{
 	
-    background: url(../images/xray1.svg) no-repeat center center;
+    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/xray1.svg') no-repeat center center;
   background-size: 50% 50%;
   /* red */
   background-color:#FF6961;
 }
 #me382{
 		background-image: url('../images/projBone.jpg');
-    background: url(../images/cells1.svg) no-repeat center center;
+    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/cells1.svg') no-repeat center center;
   background-size: 50% 50%;
   /* orange */
   background-color: #FFB347;
 }
 #cs235{
-  background-image: url('../images/projChessRobot.jpg');
-  background: url(../images/robot1.svg) no-repeat center center;
+  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/robot1.svg') no-repeat center center;
   background-size: 50% 50%;
     /* green */
   background-color:#77DD77;
@@ -55,15 +54,13 @@ background-color:#FDFD96;
 }
 
 #me210{
-		background-image: url('../images/projSumobot.jpg');
   background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/SumoWrestlingTopDown.svg') no-repeat center center;
   background-size: 50% 50%;
   /* pink */
   background-color: #DEA5A4;
 }
 #iosProx{
-		background-image: url('../images/projProximity.png');
-    background: url(../images/prox1.svg) no-repeat center center;
+    background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/Proximity+Logo.svg') no-repeat center center;
   background-size: 50% 50%;
   /* blue */
   background-color: #AEC6CF;
@@ -75,15 +72,13 @@ background-color:#FDFD96;
   background-color: #CB99C9;
 }
 #iosInsoles2{
-		background-image: url('../images/projInsoles.jpg');
-  background: url('../images/phone1.svg') no-repeat center center;
+  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/phone1.svg') no-repeat center center;
   background-size: 50% 50%;
   /* grey */
   background-color: #CFCFC4;
 }
 #projPiano{
-		background-image: url('../images/projPiano.jpg');
-  background: url(../images/piano1.svg) no-repeat center center;
+  background: url('https://s3-us-west-1.amazonaws.com/picturesalxyee/images/svg/piano1.svg') no-repeat center center;
   background-size: 50% 50%;
   /* dark blue */
   background-color: #779ECB;
