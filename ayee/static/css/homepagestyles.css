@@ -56,7 +56,13 @@ a {
   background-size:cover;
 
 }
+.alexPicture{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: inline-block;
 
+}
 .divider {
   margin-top:5px;
 }
@@ -152,7 +158,7 @@ small.text-muted {
   color: #ffffff;
 }
 .featurette-orange{
-  background:#FFB347;
+  background:#779ECB;
     color: #ffffff;
 }
 .featurette-clear{
@@ -172,7 +178,7 @@ small.text-muted {
   color:#ADD8E6;
 }
 .grey-back{
-background-color:rgba(100,100,100,0.6);
+background-color:rgba(100,100,100,0.8);
 }
 #canvas {
   background-color: #B8B8B8; /* change this to your preferred color */
@@ -195,6 +201,16 @@ background-color:rgba(100,100,100,0.6);
 .featurette-item > i:hover {
   font-size: 68px;
 }
+.featurette-item-plus > i {
+  display: inline-block;
+  font-size: 30px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
 
 .featurette-item-skills> i {
   font-size: 56px;
