@@ -42,15 +42,16 @@ background-color:#FDFD96;
 		background-image: url('../images/projBone.jpg');
     background: url(../images/cells1.svg) no-repeat center center;
   background-size: 50% 50%;
-  /* green */
-  background-color:#77DD77;
+  /* orange */
+  background-color: #FFB347;
 }
 #cs235{
   background-image: url('../images/projChessRobot.jpg');
   background: url(../images/robot1.svg) no-repeat center center;
   background-size: 50% 50%;
-  /* orange */
-  background-color: #FFB347;
+    /* green */
+  background-color:#77DD77;
+
 }
 
 #me210{

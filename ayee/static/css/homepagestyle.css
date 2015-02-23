@@ -151,6 +151,10 @@ small.text-muted {
   background: #fff;
   color: #ffffff;
 }
+.featurette-orange{
+  background:#FFB347;
+    color: #ffffff;
+}
 .featurette-clear{
   color:#fff;
 
